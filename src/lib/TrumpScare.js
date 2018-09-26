@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './TrumpScare.css';
 
-class TrumpScare extends PureComponent {
+class TrumpScare extends Component {
   static propTypes = {
     image: PropTypes.string,
     trigger: PropTypes.oneOf(['scroll', 'reload', 'random'])
