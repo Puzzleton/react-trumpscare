@@ -8,7 +8,7 @@ Install using NPM
 npm install --save react-trumpscare
 ```
 
-or Jest
+or Yarn
 ```
 yarn add react-trumpscare
 ```
